@@ -5,13 +5,15 @@
 --4. pane tabelite screen'id ja/või SQL tulemused readme faili
 --5. Moodlesse lisa oma repo public link
 
+
 -- db loomine
 create database Tarpv24
 
---?
+--db kustutamine
 DRop DataBASE Tarpv24
 
---?
+--tabeli Gender loomine
+use TARpv24;
 create table Gender
 (
 Id int NOT NULL primary key,
